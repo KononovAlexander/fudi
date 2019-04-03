@@ -1,0 +1,360 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+@import url(fonts/times-new-roman-gras-italique.ttf);
+*{
+	box-sizing: border-box 	;
+}
+html{
+	height: 100%;	
+	font-size: 	10px;
+	font-family: Lato,"Times New Toman Bold Italic", sans-serif;
+	
+	color: 	#969696;
+}
+body{
+	min-height: 100%;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+	}
+	.navList  li{
+		display: inline-block;
+		padding: 0 3em;
+		
+	}
+	.navList a {
+		text-decoration: none;
+		font-size: 1.8em;
+		font-weight: 700;
+		color: #fff;
+		transition: all .2s ease;
+	}
+
+     .navList a:hover,
+     .navList a:focus,
+     .navList a:active{
+     opacity: .6 ;
+     }
+    
+    
+	
+     .menu_bar :hover,
+     .menu_bar :focus,
+     .menu_bar :active{
+     opacity: .6;
+
+     }
+
+
+
+h1{
+	font-size: 10em;
+	line-height: 1em;
+	padding: 7rem 0 2rem;
+	margin: 0 ;
+}
+h3{
+
+	padding: 1.0em;
+	text-transform: uppercase;
+	color: #000000;
+	
+	
+}
+.underline{
+	
+	width: 30%;
+	
+}
+.line{
+	margin: 0 auto;
+}
+
+ hr{
+	width:25%;
+	margin-left: 0 ;
+	color: red;
+	background-color: red;
+	height: 1px;
+	border:none; 
+}
+
+
+.bgimage{
+	background-position:center;
+	background-size:cover;
+	background-color:#0e0d1b;
+	background-image: url(header/main_imageshadow.png);
+}
+
+
+.container{
+	margin: 0 auto;
+	padding: 10rem 0;
+	max-width: 1600px;
+	width: 90%;
+	text-align: center;
+	color : #fff;
+}
+.string_first{
+	font-size: 3.6rem;
+	font-family: 'Times New Roman';
+	font-style:   italic;
+	font-weight: bold;
+	color: #E9DCDB;
+	padding: 0;
+	margin: 0 auto;
+}
+.string_sec{
+	font-size: 1.4em;
+	padding-top:2rem 	;
+}
+
+.btn{
+	display: inline-block;
+font-size: 1.8rem;
+text-decoration: none;
+border: 2px solid;
+padding: 2rem 8.8rem;
+color: #fff;
+text-align: center;
+border-radius: .3rem;
+transition: all .4s ease-in-out
+
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active{
+	background-color: #560949;
+	color:#F68175;
+}
+.points, .iphone{
+	display: flex;
+	justify-content:space-around;
+	/* outline: 1px red solid; */
+}
+    .points div{
+	padding: 4em;
+	/* outline: 1px green solid; */
+	font-size: 1.6em;
+	text-align: center;
+
+}
+.points img{
+	width: 4.5em;
+	height: 4.5em;
+}
+.iphone__5,.iphone__text{
+	padding: 3.5em 6.5em 5.5em;
+	font-size: 1.6em;
+	
+
+
+}
+.ap_play{
+	display: inline-block;
+
+}
+.app img{
+	width: 5em;
+	height: 3rem;
+}
+.play img{
+	width: 5em;
+	height: 3rem;
+}
+.play:hover,
+.play:focus,
+.play:active{
+	opacity: .5;	
+}
+.app:hover,
+.app:focus,
+.app:active{
+	opacity: .5;	
+}
+
+.iphone{
+	position: relative;
+	background-color: #F7F7F7;
+}
+.iphone__5 img{
+	width: 25em;
+	height: 50em;
+
+	
+}
+.slider{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    text-align: center;
+	padding: 1em;
+	min-height: 27%;
+	font-size: 2em;
+	background-color: #4F404E;
+	color: #fff;
+
+	
+	
+		background-position:center;
+	    background-size:cover;
+	    background-image: url(main/backImg.png);
+	    
+}
+.slider img{
+	width: 10rem;
+	height: 10rem;
+	overflow: hidden;
+}
+.slider p{
+	width: 50%;
+	margin: 0 auto;
+	text-overflow: ellipsis;
+	
+}
+.dotes{
+	
+	
+	display: flex;
+	justify-content: space-between;
+	 padding: 2rem 0;
+	 margin: 0 auto;
+	width: 5%;
+	margin: 0 auto ;
+
+}.dotes div{
+	height: 1rem;
+	width: 1rem;
+	border-radius: 50%;
+	background-color: #756975;
+	
+}
+
+.dotes div:hover,
+.dotes div:focus,
+.dotes div:active{
+	background-color: #fff;
+
+}
+.food h3{
+
+	text-align: center;
+	font-size:1.4em;
+}
+.food_box{	
+	width: 100%;
+}
+.dishes{
+	
+	
+	display: flex;
+	justify-content: stretch;
+	flex-flow: wrap;
+	width: 100%;
+	padding: 0 ;
+	/* font-size: 0;	 */
+	
+
+
+	
+}
+.dishes li{
+	/* display: inline-block; */
+	position: relative;
+	color: #fff;
+	width: 20%;
+	padding: 0;
+	overflow: hidden;
+	margin: 0 ;
+	text-align: center;
+	border: none;
+	
+}
+.dishes li img{
+	
+	width: 100%;
+	height: 100%;
+
+}
+.span{
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30%;
+	
+}
+.count{
+	font-size: 1.2em;
+	font-family: 'Times New Roman';
+	font-style: italic;
+	font-weight: bold;
+	margin: 0 ;
+
+	
+
+
+}
+.dishes  h2{
+	font-size: 3.5em;
+	margin: 0 ;
+
+}
+.numbers{
+	
+	display: flex;
+	justify-content: space-between;
+}
+.numbers span{
+	padding: 1em;
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0 auto;
+	color:#000;
+	text-align: center;
+	
+}
+
+
+footer{
+	background-color: #F7F7F7;
+	padding: 4em;
+	
+	display: flex;
+	justify-content: space-around;
+}
+ small{
+	color: #444444;
+	font-size: 1rem;
+}
+footer a{
+	color:#000;
+	font-weight: 700;
+	text-decoration: none;
+}
+footer a:hover,
+footer a:focus,
+footer a:active{
+	color:#c60ebe;
+	transition: all .4s ease-in-out;
+
+}
+
